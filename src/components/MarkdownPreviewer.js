@@ -28,17 +28,17 @@ class MarkdownPreviewer extends Component {
     super(props);
 
     let defaultText = dedent`
-      <pre></pre>
-
       # Heading 1
 
       ## Heading 2
 
-      <a href="https://www.google.com" target="_blank">link</a>
+      [link](https://www.google.com)
 
       \`code\`
 
-      \`\`\`code block \`\`\`
+      \`\`\`
+      code block
+      \`\`\`
 
       * list item 1
       * list item 2
